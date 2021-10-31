@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:700);
+html, body{
+    height: 100%;
+    margin:0px;
+    overflow:hidden;
+}
+
+div {
+  font-family: 'Josefin Slab', serif;
+  font-size:190px;
+  position:relative;
+}
+
+.black .container {
+  position:absolute;
+  bottom:-48px;
+}
+.white .container {
+  position:absolute;
+  top:-12px;
+}
+div.white{
+  color:#210010;
+  background-color:#fcfcfe;
+  width:100%;
+  height:50%;
+  padding:0px !important;
+}
+div.black {
+  color:#fcfcfe;
+  background-color:#210010;
+  width:100%;
+  height:50%;
+  padding:0px !important;
+}
